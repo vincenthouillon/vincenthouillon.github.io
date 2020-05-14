@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
+    <title>VincentHouillon</title>
+    <link rel="icon" type="image/png" href="img/Avatar_perso.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body data-spy="scroll" data-target="#NavbarNav" data-offset="0">
+    <header id="home">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="#home" class="navbar-brand js-scrollTo"><img src="img/Avatar_perso.png" alt="avatar" title="Vincent Houillon"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarNav"
+                arial-controls="NavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="NavbarNav">
+                <ul class="navbar-nav ml-auto nav-pills">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link js-scrollTo">Accueil</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#achievements" class="nav-link js-scrollTo">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link js-scrollTo">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#config" class="nav-link js-scrollTo">Mes outils</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+
+        <div class="home-inner"></div>
+
+        <div class="caption text-center">
+            <h1>Vincent Houillon</h1>
+            <h2>{% Développeur Python %}</h2>
+            <p><i class="fas fa-quote-left"></i> Après plus de 25 ans dans le domaine de la maintenance
+                multi-technique, j'ai décidé d'élargir mon champ de compétence avec une formation de
+                développeur Python. Je suis aujourd'hui à la recherche d'un poste de développeur de 
+                préférence dans le sud de l'Île-de-France.
+                <i class="fas fa-quote-right"></i>
+            </p>
+            <a href="#achievements" class="btn btn-lg js-scrollTo"><i class="fas fa-arrow-circle-down"></i> Continuer</a>
+        </div>
+    </header>
+
+    <div id="achievements" class="padding">
+        <div class="container">
+            <h2>Exemples de réalisations</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: auto;">
+                            <img src="img/grandpy.png" class="card-img-top" alt="Aperçu du site grandpy">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">GrandpyBot</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet 7 - OpenClassrooms</h6>
+                                <div class="techno">
+                                    <ul>
+                                        <li>Python3</li>
+                                        <li>Flask</li>
+                                        <li>API Rest</li>
+                                        <li>Bootstrap4</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Git & GitHub</li>
+                                    </ul>
+                                </div>
+                                <p class="card-text">Ah, les grands-pères... Je ne sais pas vous, mais le mien
+                                    connaissait quantité d'histoires. Il me suffisait de lui dire un mot pour le voir
+                                    parti pendant des heures. "Tu veux l'adresse de la poste ? Ah oui, c'est bien. Mais
+                                    je t'ai déjà raconté que j'ai aidé à la construire ? C'était en 1974 et..."</p>
+                                <a href="https://github.com/vincenthouillon/grandpy_bot"
+                                    class="btn btn-dark btn-sm card-link" target="_blank"><i class="fab fa-github"></i>
+                                    Voir sur GitHub</a>
+                                <a href="https://hv-grandpy.herokuapp.com/" class="card-link" target="_blank">
+                                    <i class="fas fa-link"></i> Site web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: auto;">
+                            <img src="img/purbeurre.png" class="card-img-top" alt="aperçu du site purbeurre">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">Purbeurre</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet 11 - OpenClassrooms</h6>
+                                <div class="techno">
+                                    <ul>
+                                        <li>Python3</li>
+                                        <li>Django</li>
+                                        <li>API Rest</li>
+                                        <li>PostgreSQL</li>
+                                        <li>Bootstrap4</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Gunicorn</li>
+                                        <li>Nginx</li>
+                                        <li>Travis-CI</li>
+                                        <li>Supervisor</li>
+                                        <li>Sentry</li>
+                                        <li>Git & GitHub</li>
+                                    </ul>
+                                </div>
+                                <p class="card-text">La startup Pur Beurre, avec laquelle vous avez déjà travaillé,
+                                    souhaite développer une plateforme web à destination de ses clients. Ce site
+                                    permettra à quiconque de trouver un substitut sain à un aliment considéré comme
+                                    "Trop gras, trop sucré, trop salé" (même si nous savons tous que le gras c’est la
+                                    vie).</p>
+                                <a href="https://github.com/vincenthouillon/purbeurre-p11"
+                                    class="btn btn-dark btn-sm c card-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir sur GitHub</a>
+                                <a href="http://134.209.23.13/" class="card-link" target="_blank">
+                                    <i class="fas fa-link"></i> Site web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: auto;">
+                            <img src="img/inventarium.png" class="card-img-top" alt="aperçu du site inventarium">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">Inventarium</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet 13 - OpenClassrooms</h6>
+                                <div class="techno">
+                                    <ul>
+                                        <li>Python3</li>
+                                        <li>Django</li>
+                                        <li>PostgreSQL</li>
+                                        <li>Bootstrap4</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Gunicorn</li>
+                                        <li>Nginx</li>
+                                        <li>Supervisor</li>
+                                        <li>Travis-CI</li>
+                                        <li>Sentry</li>
+                                        <li>Git & GitHub</li>
+                                    </ul>
+                                </div>
+                                <p class="card-text">
+                                    Ce service vous permet de conserver l'ensemble de vos factures d'équipements
+                                    présents dans vos habitations en ligne, afin de les retrouver facilement en quelques
+                                    clics.<br>Inventarium vous donne également quelques indications en plus sur vos
+                                    équipement
+                                    comme leur durée de vie théorique, l'estimation de leur valeur résiduelle.</p>
+                                <a href="https://github.com/vincenthouillon/inventarium-p13"
+                                    class="btn btn-dark btn-sm card-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir sur GitHub</a>
+                                <a href="https://www.inventarium.me/" class="card-link" target="_blank">
+                                    <i class="fas fa-link"></i> Site web</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div id="education" class="padding">
+        <div class="container">
+            <h2>Formation développeur</h2>
+            <p>
+                L’objectif de cette formation <a
+                    href="https://openclassrooms.com/fr/paths/68-developpeur-dapplication-python" target="_blank">OpenClassrooms</a> 
+                est de vous former au métier de Développeur d’Application Python.
+                Le développeur d’application a pour mission de créer des sites dynamiques grâce à un langage de
+                programmation.
+                Grâce à la spécialisation Python / Django, vous saurez construire des scripts et des applications web
+                robustes. Vous découvrirez les sujets centraux du développement web et serez capable, entre autre, de
+                lancer un programme en ligne de commande. Les bases de données, les bonnes pratiques en Python ou les
+                serveurs n'auront plus de secrets pour vous !
+                Pourquoi apprendre Python ? Avant tout car il s'agit d'un langage très utilisé dans la sphère
+                scientifique et qu'il vous ouvrira de nombreuses portes ! C'est également un des langages de
+                prédilection des startups car il est clair, concis et permet de créer rapidement des prototypes
+                fonctionnels.
+                Python est le 5e langage le plus populaire selon l’index TIOBE et son usage est resté stable depuis une
+                dizaine d’années. Vous avez la garantie d’utiliser longtemps ce que vous apprendrez dans ce parcours !
+
+                À l’issue de cette formation, vous saurez :
+                <ul class="detail">
+                    <li>Analyser un cahier des charges et choisir une solution technique adaptée parmi les solutions
+                        existantes</li>
+                    <li>Concevoir l’architecture technique d’une application à l’aide de diagrammes UML</li>
+                    <li>Créer des projets web dynamiques grâce à Python</li>
+                    <li>Communiquer avec une base de données pour stocker et requêter des informations</li>
+                    <li>Développer de manière professionnelle grâce au framework Django</li>
+                    <li>Mettre en oeuvre des tests unitaires et fonctionnels</li>
+                    <li>Utiliser les outils les plus connus d’intégration continue</li>
+                    <li>Produire une documentation technique et fonctionnelle de l’application</li>
+                </ul>
+            </p>
+            <h3 class="rotate-right">Diplôme</h3>
+            <p><b>2018-2019 OpenClassrooms :</b> Développeur d'application Python
+                - Diplôme RNCP de niveau II (niveau bac +3/4)</p>
+
+            <h3 class="rotate-left">Certificats de réussites</h3>
+            <p>Liste des certificats de réussites obtenus pendant la formation de développeur d'application Python.</p>
+            <div class="certificates">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Apprenez à apprendre</li>
+                            <li>Comprendre le Web</li>
+                            <li>Gérez votre code avec Git et GitHub</li>
+                            <li>Démarrez votre projet avec Python</li>
+                            <li>Découvrez la programmation orientée objet avec Python</li>
+                            <li>Découvrez le fonctionnement des algorithmes </li>
+                            <li>Perfectionnez-vous en Python</li>
+                            <li>Gerez votre projet informatique facilement !</li>
+                            <li>Débutez l'analyse logicielle avec UML</li>
+                            <li>Concevez un site avec Flask</li>
+                            <li>Utilisez des API REST dans vos projets web</li>
+                            <li>Administrez vos bases de données avec MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Introduction à JQuery</li>
+                            <li>Modélisez, implémentez et requêtez une base de données relationnelle avec UML et SQL</li>
+                            <li>Apprenez à créer votre site web en HTML5 et CSS3</li>
+                            <li>Apprenez à coder en JavaScripts</li>
+                            <li>Créez des pages web intéractives avec JavaScript</li>
+                            <li>Prenez en main Bootstrap</li>
+                            <li>Testez votre projet avec Python</li>
+                            <li>Intégrateur Web</li>
+                            <li>Découvrez le framework Django</li>
+                            <li>Déployez une application Django</li>
+                            <li>Maintenez-vous à jour en développement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config" class="padding">
+        <div class="container">
+            <h2>Les outils que j'utilise</h2><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="rotate-right">Développement</h3>
+                    <ul>
+                    <li>Visual Studio Code</li>
+                        <ul class="small">
+                            <li>Alignment</li>
+                            <li>autoDocstring</li>
+                            <li>Beautify</li>
+                            <li>Better Comments</li>
+                            <li>Bracket Pair Colorizer 2</li>
+                            <li>Color Highlight</li>
+                            <li>docs-markdown</li>
+                            <li>Live Sass Compiler</li>
+                            <li>Live Server</li>
+                            <li>Python</li>
+                            <li>Settings Sync</li>
+                            <li>Visual Studio Intellicode</li>
+                            <li>Nord, Material Theme, One Dark Pro</li>
+                        </ul>
+                        <li>Vim</li>
+                        <li>Git</li>
+                        <li>Terminal sous Mac & Linux et Windows Terminal</li>
+                        <li>Oh My Zsh <small>(Mac)</small></li>
+                        <li>Docker sur NAS <small>(PostgreSQL, MySQL)</small></li>
+                        <li>DB Browser</li>
+                        <li>Filezilla</li>
+                        <li>Postman <small>(ou Insomnia REST sur Mac)</small></li>
+                        <li>Cool Pix Bar <small>(Windows)</small> & Color Note <small>(Mac)</small></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="rotate-left">Système</h3>
+                    <ul>
+                        <li>Windows 10 pro 64bits</li>
+                        <ul class="small">
+                            <li>Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 2.70GHz</li>
+                            <li>16 Go RAM</li>
+                            <li>NVIDIA GeForce GTX 960</li>
+                            <li>Moniteur Samsung 28" UHD - U28E590D</li>
+                            <li>Clavier mécanique KLIM Domination</li>
+                            <li>Souris KLIM Skill</li>
+                        </ul>
+                        <li>MacOS Catalina</li>
+                        <ul class="small">
+                            <li>Macbook Pro 13" Touch Bar 2019</li>
+                        </ul>
+                    </ul>
+                    <h3 class="rotate-right">Autres</h3>
+                    <ul>
+                        <li>Firefox <small>(par défaut)</small></li>
+                        <li>Chrome</li>
+                        <li>Synology Drive</li>
+                        <li>OneDrive</li>
+                        <li>OneNote</li>
+                        <li>Microsoft Office</li>
+                        <li>QuickLook <small>(Windows)</small></li>
+                        <li>MusicBee <small>(Windows)</small></li>
+                        <li>Gimp <small>(et paint.net sur Windows)</small></li>
+                        <li>Discord</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="scroll-to-top rounded js-scrollTo" href="#home" style="display: inline;">
+        <i class="fas fa-angle-up"></i>
+      </a>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="https://github.com/vincenthouillon" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/vincent-houillon/" target="_blank"><i class="fab fa-linkedin"></i> Linked<b>in</b></a>
+                <a href="https://twitter.com/hvincent285" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="pdf/CV Vincent Houillon 2019.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Curriculum<b>Vit&aelig;</b></a>
+            </p>
+            <p class="text-muted">&copy; 
+                <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                Vincent Houillon. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- for scroll effect -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+  
+</body>
+</html>
