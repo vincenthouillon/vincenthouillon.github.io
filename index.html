@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex">
     <title>VincentHouillon</title>
-    <link rel="icon" type="image/png" href="img/Avatar_perso.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -18,7 +18,7 @@
     <header id="home">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a href="#home" class="navbar-brand js-scrollTo"><img src="img/Avatar_perso.png" alt="avatar"
+            <a href="#home" class="navbar-brand js-scrollTo"><img src="img/logo.png" alt="avatar"
                     title="Vincent Houillon"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarNav"
                 arial-controls="NavbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,6 +65,36 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                         <div class="card" style="width: auto;">
+                            <img src="img/stockgestion.png" class="card-img-top"
+                                alt="Aperçu du site mutliple-renaming">
+                            <div class="card-body">
+                                <h5 class="card-title mb-1">StockGestion</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet Pro/Personnel</h6>
+                                <div class="techno">
+                                    <ul>
+                                        <li>Python3</li>
+                                        <li>Django</li>
+                                        <li>PostgreSQL</li>
+                                        <li>Bootstrap4</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>SCSS</li>
+                                        <li>Javascript</li>
+                                        <li>Git & GitHub</li>
+                                    </ul>
+                                </div>
+                                <p class="card-text">Application de gestion de stock. Particularité du projet,
+                                    les quantités et les prix peuvent être différents en fonction du gisement et du
+                                    fournisseur. L'application doit fonctionner uniquement en intranet sans accès extérieur.
+                                </p>
+                                <a href="https://demo-stockgestion.herokuapp.com/" class="card-link"
+                                target="_blank">
+                                <i class="fas fa-link"></i> Site demo web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: auto;">
                             <img src="img/multipleRenaming.png" class="card-img-top"
                                 alt="Aperçu du site mutliple-renaming">
                             <div class="card-body">
@@ -92,40 +122,45 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                         <div class="card" style="width: auto;">
-                            <img src="img/grandpy.png" class="card-img-top" alt="Aperçu du site grandpy">
+                            <img src="img/inventarium.png" class="card-img-top" alt="aperçu du site inventarium">
                             <div class="card-body">
-                                <h5 class="card-title mb-1">GrandpyBot</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Projet 7 - OpenClassrooms</h6>
+                                <h5 class="card-title mb-1">Inventarium</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet 13 - OpenClassrooms</h6>
                                 <div class="techno">
                                     <ul>
                                         <li>Python3</li>
-                                        <li>Flask</li>
-                                        <li>API Rest</li>
+                                        <li>Django</li>
+                                        <li>PostgreSQL</li>
                                         <li>Bootstrap4</li>
                                         <li>HTML5</li>
                                         <li>CSS3</li>
                                         <li>Javascript</li>
+                                        <li>Gunicorn</li>
+                                        <li>Nginx</li>
+                                        <li>Supervisor</li>
+                                        <li>Travis-CI</li>
+                                        <li>Sentry</li>
                                         <li>Git & GitHub</li>
                                     </ul>
                                 </div>
-                                <p class="card-text">Ah, les grands-pères... Je ne sais pas vous, mais le mien
-                                    connaissait quantité d'histoires. Il me suffisait de lui dire un mot pour le voir
-                                    parti pendant des heures. "Tu veux l'adresse de la poste ? Ah oui, c'est bien. Mais
-                                    je t'ai déjà raconté que j'ai aidé à la construire ? C'était en 1974 et..."</p>
-                                <a href="https://github.com/vincenthouillon/grandpy_bot"
-                                    class="btn btn-dark btn-sm card-link" target="_blank"><i class="fab fa-github"></i>
-                                    Voir sur GitHub</a>
-                                <a href="https://hv-grandpy.herokuapp.com/" class="card-link" target="_blank">
-                                    <i class="fas fa-link"></i> Site web</a>
+                                <p class="card-text">
+                                    Ce service vous permet de conserver l'ensemble de vos factures d'équipements
+                                    présents dans vos habitations en ligne, afin de les retrouver facilement en quelques
+                                    clics.<br>Inventarium vous donne également quelques indications en plus sur vos
+                                    équipement
+                                    comme leur durée de vie théorique, l'estimation de leur valeur résiduelle.</p>
+                                <a href="https://github.com/vincenthouillon/inventarium-p13"
+                                    class="btn btn-dark btn-sm card-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir sur GitHub</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                         <div class="card" style="width: auto;">
                             <img src="img/purbeurre.png" class="card-img-top" alt="aperçu du site purbeurre">
                             <div class="card-body">
@@ -162,40 +197,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                         <div class="card" style="width: auto;">
-                            <img src="img/inventarium.png" class="card-img-top" alt="aperçu du site inventarium">
+                            <img src="img/grandpy.png" class="card-img-top" alt="Aperçu du site grandpy">
                             <div class="card-body">
-                                <h5 class="card-title mb-1">Inventarium</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Projet 13 - OpenClassrooms</h6>
+                                <h5 class="card-title mb-1">GrandpyBot</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Projet 7 - OpenClassrooms</h6>
                                 <div class="techno">
                                     <ul>
                                         <li>Python3</li>
-                                        <li>Django</li>
-                                        <li>PostgreSQL</li>
+                                        <li>Flask</li>
+                                        <li>API Rest</li>
                                         <li>Bootstrap4</li>
                                         <li>HTML5</li>
                                         <li>CSS3</li>
                                         <li>Javascript</li>
-                                        <li>Gunicorn</li>
-                                        <li>Nginx</li>
-                                        <li>Supervisor</li>
-                                        <li>Travis-CI</li>
-                                        <li>Sentry</li>
                                         <li>Git & GitHub</li>
                                     </ul>
                                 </div>
-                                <p class="card-text">
-                                    Ce service vous permet de conserver l'ensemble de vos factures d'équipements
-                                    présents dans vos habitations en ligne, afin de les retrouver facilement en quelques
-                                    clics.<br>Inventarium vous donne également quelques indications en plus sur vos
-                                    équipement
-                                    comme leur durée de vie théorique, l'estimation de leur valeur résiduelle.</p>
-                                <a href="https://github.com/vincenthouillon/inventarium-p13"
-                                    class="btn btn-dark btn-sm card-link" target="_blank">
-                                    <i class="fab fa-github"></i> Voir sur GitHub</a>
-                                <a href="https://www.inventarium.me/" class="card-link" target="_blank">
-                                    <i class="fas fa-link"></i> Site web</a>
+                                <p class="card-text">Ah, les grands-pères... Je ne sais pas vous, mais le mien
+                                    connaissait quantité d'histoires. Il me suffisait de lui dire un mot pour le voir
+                                    parti pendant des heures. "Tu veux l'adresse de la poste ? Ah oui, c'est bien. Mais
+                                    je t'ai déjà raconté que j'ai aidé à la construire ? C'était en 1974 et..."</p>
+                                <a href="https://github.com/vincenthouillon/grandpy_bot"
+                                    class="btn btn-dark btn-sm card-link" target="_blank"><i class="fab fa-github"></i>
+                                    Voir sur GitHub</a>
                             </div>
                         </div>
                     </div>
